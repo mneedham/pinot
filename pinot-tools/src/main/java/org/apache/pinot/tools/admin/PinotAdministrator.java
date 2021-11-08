@@ -194,7 +194,7 @@ public class PinotAdministrator {
     pinotAdministrator.execute(args);
     if (System.getProperties().getProperty("pinot.admin.system.exit", "false").equalsIgnoreCase("true")) {
       // If status is true, cmd was successfully, so return 0 from process.
-      System.exit(pinotAdministrator._status);
+//      System.exit(pinotAdministrator._status);
     }
   }
 }
