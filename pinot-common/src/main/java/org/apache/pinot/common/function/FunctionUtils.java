@@ -51,6 +51,7 @@ public class FunctionUtils {
     put(float[].class, PinotDataType.PRIMITIVE_FLOAT_ARRAY);
     put(double[].class, PinotDataType.PRIMITIVE_DOUBLE_ARRAY);
     put(String[].class, PinotDataType.STRING_ARRAY);
+    put(Object.class, PinotDataType.OBJECT);
   }};
 
   // Types allowed as the function argument (actual value passed into the function) for type conversion
